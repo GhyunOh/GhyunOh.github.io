@@ -1,20 +1,23 @@
 # About me
 ![screenshot](images/Me.jpg){: style="height:300px;width:300px" align=left }
-I am currently a junior student at the University of Central Oklahoma, majoring in Computer Science.
 
-I am interested in Artificial Intelligence and Backend Developement. 
-
+#### Jeehyun Oh
+#### Jan 16, 1998
+#### joh8@uco.edu || dhwlgus3456@gmail.com
+#### (+1)  405-916-8577   (U.S)
+#### (+82) 010-3369-5043  (S.Korea)
+#### Edmond, OK, The United States
 <br/>
 <br>
-<br>
-<br>
-<br>
-## Education 
+# Education 
 ### University of Central Oklahoma
-#### Bachelor of Science
-#### - Computer Science
-##### Jan. 2018 - Present
+### Bachelor - Computer Science
+### Jan. 2018 - Present | Expected May 2024
 
-## Skills 
+# Fields of Interest
+### Artificial Intelligence (A.I.)
+### Backend Developement
+
+# Skills 
 ### Programming Languages:
-#### - PYTHON, C++, JAVA, Mysql, AutoHotKey, C#
+### - PYTHON, C++, JAVA, Mysql, AutoHotKey, C\#

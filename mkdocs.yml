@@ -1,44 +1,33 @@
 site_name: Jeehyun Oh - Portfolio
-site_description: Portfolio #browser tab tooltip text
-site_author: Jeehyun Oh #don't know where does it shows
+site_description: Portfolio
+site_author: Jeehyun Oh 
 
-#Footer
+repo_name: GhyunOh
+repo_url: https://github.com/GhyunOh
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
+nav:
+  - About me: index.md
+  - Certification & Experience: cert.md
+  - Projects: project.md
+
 extra:
   social:
     - icon: fontawesome/brands/github
       link: 'https://github.com/GhyunOh'
 
 copyright: Copyright &copy; 2022 <a href="https://www.github.com/GhyunOh">Jeehyun Oh</a>
-
-#Theming
-theme:
-    name: material
-    palette:
-        scheme: 'slate'
-        primary: 'skyblue'
-    #     # links_color : 'green' #todo, this is not the correct solution
-        
-    logo: 'assets/images/favicon.png'
-    favicon: 'assets/images/favicon.png'
-
-    feature:
-      - tabs: true    
-
-    language: 'en'    
-    extra:
-        search:
-            language: 'en'
-            tokenizer: '[\s\-\.]+'
-    features:
-     # - navigation.top
-      - navigation.tabs
-      - navigation.tabs.sticky
-      - toc.integrate
-        
-    # toc:
-    #     disable: true # todo, this is not working. expected this to remove table of contents
-#extra_css:
-#    - 'stylesheets/extra.css' # for disabling toc # not working
 
 # Extensions
 markdown_extensions:
