@@ -1,0 +1,81 @@
+site_name: Jeehyun Oh - Portfolio
+site_description: Portfolio #browser tab tooltip text
+site_author: Jeehyun Oh #don't know where does it shows
+
+#Footer
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: 'https://github.com/GhyunOh'
+
+copyright: Copyright &copy; 2022 <a href="https://www.github.com/GhyunOh">Jeehyun Oh</a>
+
+#Theming
+theme:
+    name: material
+    palette:
+        scheme: 'slate'
+        primary: 'skyblue'
+    #     # links_color : 'green' #todo, this is not the correct solution
+        
+    logo: 'assets/images/favicon.png'
+    favicon: 'assets/images/favicon.png'
+
+    feature:
+      - tabs: true    
+
+    language: 'en'    
+    extra:
+        search:
+            language: 'en'
+            tokenizer: '[\s\-\.]+'
+    features:
+     # - navigation.top
+      - navigation.tabs
+      - navigation.tabs.sticky
+      - toc.integrate
+        
+    # toc:
+    #     disable: true # todo, this is not working. expected this to remove table of contents
+#extra_css:
+#    - 'stylesheets/extra.css' # for disabling toc # not working
+
+# Extensions
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - attr_list
+  - md_in_html
+
+
+# nav:
+#     - About Me: index.md
+#     - Work Experience: work_exp.md
+#     - Education: edu_details.md
+#         # - Academic Background: 
+#     - Certifications: certification.md
+#     - Contact: contact.md
